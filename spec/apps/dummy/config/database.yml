@@ -4,3 +4,9 @@ test:
   pool:     5
   timeout:  5000
   encoding: unicode
+  username: postgres
+  port: 5432
+  worker_port: 5433
+  host: "localhost"
+  min_messages: WARNING
+  prepared_statements: false

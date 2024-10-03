@@ -12,6 +12,6 @@ require 'scimitar'
 
 module Dummy
   class Application < Rails::Application
+    config.autoloader = :classic
   end
 end
-
